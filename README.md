@@ -1,6 +1,6 @@
 # 🕯️ The Witch's Epitaph Reader
 
-> *"Tanpa cinta, kebenaran tidak akan bisa terlihat."*
+> *"Without Love, It Cannot Be Seen."*
 
 Sebuah web app bertemakan gothic gelap yang menampilkan teka-teki sang Penyihir Emas dari visual novel **Umineko no Naku Koro ni**. Dibuat sebagai tantangan implementasi komponen React — mendemonstrasikan reusable components, penggunaan props, dan render list dengan `.map()`.
 
@@ -56,10 +56,10 @@ Pastikan sudah menginstall:
 
 ```bash
 # 1. Clone repository ini
-git clone https://github.com/username/witch-epitaph-reader.git
+git clone github.com/Kokoparel/The-Witche-s-Epitaph.git
 
 # 2. Masuk ke folder project
-cd witch-epitaph-reader
+cd witch-epitaph
 
 # 3. Install semua dependencies
 npm install
@@ -88,7 +88,7 @@ npm run build
 | **Conditional Rendering** | `{twilight && <span>...</span>}` — label hanya muncul jika ada nilainya |
 | **Conditional Styling** | Style teks berubah berdasarkan nilai prop `type` |
 | **Component Separation** | Data, logika render, dan tampilan dipisah ke file masing-masing |
-| **Reusable Component** | Satu komponen `EpitaphLine` dipakai 16 kali dengan tampilan berbeda |
+| **Reusable Component** | Satu komponen `EpitaphLine` dipakai 19 kali dengan tampilan berbeda |
 
 ---
 

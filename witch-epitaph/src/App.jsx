@@ -1,6 +1,7 @@
 import Header from "./components/Header";
 import EpitaphDisplay from "./components/EpitaphDisplay";
 import Footer from "./components/Footer";
+import AudioPlayer from "./components/AudioPlayer";
 
 const App = () => {
   return (
@@ -8,6 +9,7 @@ const App = () => {
       <Header />
       <EpitaphDisplay />
       <Footer />
+      <AudioPlayer />
     </div>
   );
 };
